@@ -34,7 +34,9 @@ nav{
   justify-content: space-evenly;
   width: 14%;
 }
-
+#ul-personal-links-top{
+  margin-right: 2.5%;
+}
 
 main{
   display: grid;

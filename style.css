@@ -7,11 +7,17 @@
 body{
   font-family: "Roboto", sans-serif;
   background-color: white;
-  display: grid;
 }
 
 *{
   box-sizing: border-box;
+}
+
+main{
+  display: grid;
+  grid-template-columns: 0.75fr 3fr 0.75fr;
+  grid-template-rows: auto auto auto;
+  gap: 2rem;
 }
 
 nav{
@@ -38,10 +44,7 @@ nav{
   margin-right: 2.5%;
 }
 
-main{
-  display: grid;
-  grid-template-columns: 0.75fr 3fr 0.75fr;
-}
+
 
 header{
   display: grid;
@@ -75,8 +78,9 @@ header{
 
 section{
   display: grid;
+  grid-column: 2/3;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 0.1fr 2fr;
+  grid-template-rows: auto auto;
 }
 
 h3{
@@ -84,20 +88,21 @@ h3{
 }
 
 .projects-left{
-  grid-row:2;
   grid-column: 1/2;
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 0.2fr 2fr;
 }
 
 .projects-right{
-  grid-row:2;
   grid-column: 2;
+}
+
+.projects-left,
+.projects-right{
+  grid-row:2;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 0.2fr 2fr;
+  grid-template-rows: auto auto;
 }
+
 .project-title{
   grid-column: 1/2;
   grid-row: 1/2;
@@ -147,12 +152,6 @@ h3{
   cursor: pointer;
 }
 
-
-
-section{
-  grid-column: 2/3;
-}
-
 .project-screenshot{
   max-width: 500px;
   max-height: 500px;
@@ -167,7 +166,6 @@ li{
 
 footer{
   grid-column: 2/3;
-  margin-top: 5%;  /* To do: achieve proper positioning using grid. */
   justify-items: center;
 }
 

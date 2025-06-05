@@ -1,0 +1,38 @@
+body{
+  font-family: Roboto, sans-serif;
+  background-color: honeydew;
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url(./fonts/Roboto-Regular.ttf);
+}
+
+*{
+  box-sizing: border-box;
+}
+
+.svg-links{
+  max-width: 50px;
+  max-height: 50px;
+  min-width: 20px;
+  min-height: 20px;
+}
+
+#site-owner-picture{
+  max-width: 350px;
+  max-height:350px;
+  min-width: 100px;
+  min-height: 100px;
+}
+
+.project-screenshot{
+  max-width: 500px;
+  max-height: 500px;
+  min-width: 100px;
+  min-height: 100px;
+}
+
+li{
+  list-style: none;
+}

@@ -51,10 +51,10 @@ main{
 }
 
 #site-owner-picture{
-  max-width: 350px;
-  max-height:350px;
-  min-width: 100px;
-  min-height: 100px;
+  max-width:  310px;
+  max-height: 310px;
+  min-width: 80px;
+  min-height: 80px;
 }
 
 .project-screenshot{

@@ -7,6 +7,8 @@
 body{
   font-family: "Roboto", sans-serif;
   background-color: honeydew;
+  display: grid;
+
 }
 
 *{
@@ -16,11 +18,14 @@ body{
 nav{
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   border: 1px solid blue;
 }
 
 .name{
+  margin-top: 1.65%;
+  margin-bottom: 1%;
+
 }
 .nav-personal-links{
   display: flex;
@@ -28,7 +33,7 @@ nav{
   align-items: center;
   justify-content: space-evenly;
   width: 14%;
-  height: 100%;
+
 }
 
 main{

@@ -1,22 +1,51 @@
-body{
-  font-family: Roboto, sans-serif;
-  background-color: honeydew;
-}
-
 @font-face {
   font-family: Roboto;
+  font-weight: normal;
   src: url(./fonts/Roboto-Regular.ttf);
+}
+
+body{
+  font-family: "Roboto", sans-serif;
+  background-color: honeydew;
 }
 
 *{
   box-sizing: border-box;
 }
 
+nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: 1px solid blue;
+}
+
+.name{
+}
+.nav-personal-links{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 14%;
+  height: 100%;
+}
+
+main{
+  display: grid;
+  grid-template-rows: 1fr 4fr 1fr;
+}
+
 .svg-links{
+  max-width: 100px;
+  max-height: 100px;
+  min-width: 40px;
+  min-height: 40px;
+}
+
+#german-flag{
   max-width: 50px;
   max-height: 50px;
-  min-width: 20px;
-  min-height: 20px;
 }
 
 #site-owner-picture{

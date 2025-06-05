@@ -8,7 +8,6 @@ body{
   font-family: "Roboto", sans-serif;
   background-color: honeydew;
   display: grid;
-
 }
 
 *{
@@ -27,6 +26,7 @@ nav{
   margin-bottom: 1%;
 
 }
+
 .ul-personal-links{
   display: flex;
   flex-direction: row;
@@ -41,8 +41,21 @@ main{
 }
 
 header{
-  grid-column: 2/3
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  grid-column: 2/3;
+}
 
+.intro{
+  grid-column: 1/2;
+}
+
+.tech-stack{
+  grid-column: 1;
+}
+
+#site-owner-picture{
+  grid-column: 2;
 }
 
 .svg-links{

@@ -19,7 +19,6 @@ nav{
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  border: 1px solid blue;
 }
 
 .name{
@@ -27,18 +26,16 @@ nav{
   margin-bottom: 1%;
 
 }
-.nav-personal-links{
+.ul-personal-links{
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
   width: 14%;
-
 }
 
 main{
   display: grid;
-  grid-template-rows: 1fr 4fr 1fr;
 }
 
 .svg-links{
@@ -69,4 +66,16 @@ main{
 
 li{
   list-style: none;
+}
+
+footer{
+  margin-top: 5%;  /* To do: achieve proper positioning using grid. */
+  justify-items: center;
+}
+
+#mail-svg{
+  max-width: 50px;
+  max-height: 50px;
+  min-width: 40px;
+  min-height: 40px;
 }

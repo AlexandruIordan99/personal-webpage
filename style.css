@@ -122,6 +122,8 @@ h3{
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: auto auto;
+  gap: 2rem;
+  margin-right: 16%;
 }
 
 .project-title{
@@ -135,9 +137,10 @@ h3{
   flex-direction: column;
   align-items: flex-start;
   gap: 1rem;
-  margin: auto;
 }
+
 .project-description-inner{
+  margin-top: 1rem;
   font-size: 1rem;
   line-height: 1.5;
   margin-right: 2%;
@@ -148,6 +151,7 @@ h3{
   grid-row: 3/3;
   max-width: 300px;
   max-height: 250px;
+  width: 100%;
 }
 
 .project-links{
@@ -155,7 +159,7 @@ h3{
   flex-direction: row;
   align-items: flex-start;
   grid-column: 1;
-  margin-left: -5%;
+  margin-left: -8%;
 }
 .svg-icon{
   max-width: 100px;

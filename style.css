@@ -259,8 +259,12 @@ li{
 }
 
 footer{
-  grid-column: 2/3;
+  grid-column: 1/-1;
   justify-items: center;
+  background-color: white;
+  margin-left: -0.5%;
+  margin-bottom: -1%;
+  width: 100vw;
 }
 
 #mail-svg{

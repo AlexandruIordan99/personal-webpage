@@ -59,7 +59,7 @@ nav{
 }
 
 #ul-personal-links-top{
-  margin-right: 35%;
+  margin-right: 24%;
   z-index: 100;
 }
 
@@ -157,6 +157,7 @@ header{
   z-index: 2;
   border-radius: 5%;
   margin-top: 5%;
+  margin-bottom: 5%;
   margin-left: 35%;
   border: 4px solid white;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);

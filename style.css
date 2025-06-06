@@ -55,8 +55,13 @@ nav{
 
 .video-header{
   grid-column: 1/4;
-  width: 100%;
+  width: 130vw;
   max-width: none;
+  display: block;
+  left: 50%;
+  right: 50%;
+  margin-left: -25vw;
+  margin-right: -25vw;
 }
 
 video{

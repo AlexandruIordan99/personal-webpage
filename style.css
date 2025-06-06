@@ -78,6 +78,7 @@ header{
 .tech-stack{
   grid-column: 1;
   grid-row: 2;
+  z-index: 0;
 }
 
 .svg-tech-icon{
@@ -97,8 +98,8 @@ header{
   min-height: 80px;
   margin-left: 31%;
   filter: grayscale(10%) contrast(90%);
+  z-index: 2;
 }
-
 
 section{
   display: grid;

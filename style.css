@@ -253,6 +253,14 @@ h3{
   min-height: 100px;
 }
 
+.project-screenshot-bgr{
+  max-width: 500px;
+  max-height: 800px;
+  min-width: 100px;
+  min-height: 100px;
+}
+
+
 li{
   list-style: none;
   margin-right: clamp(1rem, 1.2rem, 1.5rem);

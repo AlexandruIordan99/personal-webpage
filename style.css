@@ -278,7 +278,9 @@ h3{
   border-radius: 8px;
 }
 
-
+#project-screenshot-cv{
+  margin-top: 1rem;
+}
 
 .project-screenshot:hover{
   transform: scale(1.05);

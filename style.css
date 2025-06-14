@@ -232,13 +232,14 @@ h3{
 
 }
 
-.boardgamereviewer, .master-thesis,
-.cv-application, .Battleship {
+.project-container {
   padding: 1.5rem;
   background: var(--card-white);
   border-radius: var(--radius-card);
   box-shadow: var(--shadow-card);
   border: 1px solid var(--border-light);
+  display: grid;
+  grid-template-rows: auto 1fr auto;
 }
 
 

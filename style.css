@@ -1,3 +1,10 @@
+:root {
+  --card-white: #ffffff;
+  --border-light: #e9ecef;
+  --shadow-card: 0 2px 12px rgba(0, 0, 0, 0.08);
+  --radius-card: 12px;
+}
+
 @font-face {
   font-family: Roboto;
   font-weight: normal;
@@ -251,6 +258,16 @@ h3{
   max-height: 250px;
   width: 100%;
   transition: transform .3s ease-in-out;
+}
+
+.boardgamereviewer, .master-thesis,
+.cv-application, .Battleship {
+  padding: 1.5rem;
+  background: var(--card-white);
+  border-radius: var(--radius-card);
+  box-shadow: var(--shadow-card);
+  border: 1px solid var(--border-light);
+
 }
 
 .project-screenshot:hover{

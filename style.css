@@ -282,6 +282,11 @@ h3{
   margin-top: 1rem;
 }
 
+#project-screenshot-thesis{
+  margin-top: 1rem;
+
+}
+
 .project-screenshot:hover{
   transform: scale(1.05);
   cursor: pointer;

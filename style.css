@@ -47,10 +47,14 @@ main{
     justify-self: center;
     width: 200px;
     height: 200px;
+    object-fit: contain;
   }
 
 }
 
+.site-owner-picture-container{
+  object-fit: contain;
+}
 
 nav{
   grid-column: 1/-1;

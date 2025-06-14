@@ -40,10 +40,7 @@ main{
     grid-template-columns: 1fr;
   }
 
-  .projects-left,
-  .projects-right {
-    grid-column: 1/-1;
-  }
+
 
   header {
     grid-template-columns: 1fr;
@@ -122,10 +119,12 @@ header{
   grid-template-columns: 1fr 1fr;
   grid-column: 2/3;
   background-color: white;
-  max-width: 91%;
+  max-width: 100%;
   max-height: 450px;
   border-radius: 10px;
   overflow: hidden;
+  margin-right: 2rem;
+
 }
 
 .intro-stack{
@@ -134,6 +133,7 @@ header{
   justify-content: space-between;
   margin-top: 5%;
   margin-left: 2.5%;
+
 }
 
 .intro{
@@ -226,10 +226,21 @@ h3{
   grid-row: 2;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: auto auto;
+  grid-template-rows: 1fr 1fr;
   gap: 2rem;
-  margin-right: 16%;
+  margin-right: 2rem;
+
 }
+
+.boardgamereviewer, .master-thesis,
+.cv-application, .Battleship {
+  padding: 1.5rem;
+  background: var(--card-white);
+  border-radius: var(--radius-card);
+  box-shadow: var(--shadow-card);
+  border: 1px solid var(--border-light);
+}
+
 
 .project-title{
   grid-column: 1/2;
@@ -260,15 +271,7 @@ h3{
   transition: transform .3s ease-in-out;
 }
 
-.boardgamereviewer, .master-thesis,
-.cv-application, .Battleship {
-  padding: 1.5rem;
-  background: var(--card-white);
-  border-radius: var(--radius-card);
-  box-shadow: var(--shadow-card);
-  border: 1px solid var(--border-light);
 
-}
 
 .project-screenshot:hover{
   transform: scale(1.05);

@@ -351,3 +351,7 @@ footer{
 img{
   border-radius: 5%;
 }
+
+#footer-links{
+  transform: translateX(-18px);
+}
